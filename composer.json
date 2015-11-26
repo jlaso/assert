@@ -1,0 +1,24 @@
+{
+  "name": "jlaso/assert",
+  "description": "an assert class",
+  "keywords": ["assert"],
+  "homepage": "https://github.com/jlaso/assert",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Joseluis Laso",
+      "email": "jlaso@joseluislaso.es",
+      "homepage": "http://www.joseluislaso.es/",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.29"
+  },
+  "autoload": {
+    "psr-4": {
+      "JLaso\\Assert\\": "src/"
+    }
+  }
+}
